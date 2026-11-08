@@ -396,6 +396,14 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
                     .getQuestManager()
                     .queueEvent(
                             QuestContent.QUEST_CONTENT_OBTAIN_ITEM, result.getItemId(), result.getCount());
+            // Quantity-based quest steps (7.x data). Handlers re-read the inventory, so passing the
+            // item id is enough and a stale payload count can never complete a step.
+            getPlayer()
+                    .getQuestManager()
+                    .queueEvent(QuestContent.QUEST_CONTENT_ITEM_NUM_EQUAL, result.getItemId(), 0);
+            getPlayer()
+                    .getQuestManager()
+                    .queueEvent(QuestContent.QUEST_CONTENT_ITEM_NUM_GREATER, result.getItemId(), 0);
             if (result.getItemType() == ItemType.ITEM_RELIQUARY && result.getItemData() != null) {
                 int rank = result.getItemData().getRankLevel();
                 getPlayer().getPlayerProgress().addHandbookReliquaryHistory(rank, 1);
@@ -418,6 +426,13 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
             getPlayer()
                     .getQuestManager()
                     .queueEvent(QuestContent.QUEST_CONTENT_ITEM_LESS_THAN, item.getItemId(), item.getCount());
+            // Same quantity-based steps as on add: removal can also make an EQUAL step true.
+            getPlayer()
+                    .getQuestManager()
+                    .queueEvent(QuestContent.QUEST_CONTENT_ITEM_NUM_EQUAL, item.getItemId(), 0);
+            getPlayer()
+                    .getQuestManager()
+                    .queueEvent(QuestContent.QUEST_CONTENT_ITEM_NUM_GREATER, item.getItemId(), 0);
         } catch (Exception e) {
             Grasscutter.getLogger().debug("triggerRemItemEvents failed", e);
         }

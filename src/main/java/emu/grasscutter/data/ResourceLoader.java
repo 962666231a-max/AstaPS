@@ -110,6 +110,8 @@ public final class ResourceLoader {
 
         loadConfigLevelEntityData();
         loadQuestShareConfig();
+        // Proof-of-load for quest condition kinds that used to be dropped (see the method doc).
+        emu.grasscutter.game.quest.QuestSystem.logConditionCoverage();
         loadGadgetMappings();
         loadSubfieldMappings();
         loadMonsterMappings();
