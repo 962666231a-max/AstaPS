@@ -1,0 +1,2495 @@
+{
+  "sample": {
+    "quest_table": "E:\\Genshin\\AstaPS\\resources\\ExcelBinOutput\\QuestExcelConfigData.json",
+    "rows": 33217
+  },
+  "conditions": {
+    "total_rows": 46004,
+    "total_types": 93,
+    "uncovered": [
+      {
+        "type": "QUEST_CONTENT_GADGET_STATE_CHANGE",
+        "kind": "condition",
+        "rows": 917,
+        "subquests": 834,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 7710244,
+            "mainId": 77102,
+            "field": "finishCond",
+            "param": [
+              133707072,
+              72010
+            ]
+          },
+          {
+            "subId": 7710215,
+            "mainId": 77102,
+            "field": "finishCond",
+            "param": [
+              133707002,
+              2038
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_MAIN_COOP_ENTER_SAVE_POINT",
+        "kind": "condition",
+        "rows": 665,
+        "subquests": 560,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 1900103,
+            "mainId": 19001,
+            "field": "finishCond",
+            "param": [
+              101401,
+              10201
+            ]
+          },
+          {
+            "subId": 1900103,
+            "mainId": 19001,
+            "field": "finishCond",
+            "param": [
+              101401,
+              10202
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_SCENE_LEVEL_TAG_EQ",
+        "kind": "condition",
+        "rows": 93,
+        "subquests": 58,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 7006401,
+            "mainId": 70064,
+            "field": "finishCond",
+            "param": [
+              0,
+              0
+            ]
+          },
+          {
+            "subId": 4006509,
+            "mainId": 40065,
+            "field": "finishCond",
+            "param": [
+              24,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ACTIVITY_TRIGGER_UPDATE",
+        "kind": "condition",
+        "rows": 67,
+        "subquests": 64,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 4008106,
+            "mainId": 40081,
+            "field": "finishCond",
+            "param": [
+              2017,
+              4008106
+            ]
+          },
+          {
+            "subId": 4008108,
+            "mainId": 40081,
+            "field": "finishCond",
+            "param": [
+              2017,
+              4008108
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_SCENERY_STATE_EQUAL",
+        "kind": "condition",
+        "rows": 51,
+        "subquests": 50,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 4022221,
+            "mainId": 40222,
+            "field": "failCond",
+            "param": [
+              101001,
+              0
+            ]
+          },
+          {
+            "subId": 4022209,
+            "mainId": 40222,
+            "field": "failCond",
+            "param": [
+              101001,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_MAIN_COOP_ENTER_ANY_SAVE_POINT",
+        "kind": "condition",
+        "rows": 32,
+        "subquests": 32,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 1902101,
+            "mainId": 19021,
+            "field": "finishCond",
+            "param": [
+              103601,
+              0
+            ]
+          },
+          {
+            "subId": 1904101,
+            "mainId": 19041,
+            "field": "finishCond",
+            "param": [
+              103201,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_GCG_LEVEL_WIN",
+        "kind": "condition",
+        "rows": 30,
+        "subquests": 21,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 4010914,
+            "mainId": 40109,
+            "field": "finishCond",
+            "param": [
+              50301,
+              1
+            ]
+          },
+          {
+            "subId": 4010914,
+            "mainId": 40109,
+            "field": "finishCond",
+            "param": [
+              50302,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_PARENT_QUEST_STATE_EQUAL",
+        "kind": "condition",
+        "rows": 22,
+        "subquests": 16,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7710407,
+            "mainId": 77104,
+            "field": "finishCond",
+            "param": [
+              77104,
+              1
+            ]
+          },
+          {
+            "subId": 7716024,
+            "mainId": 77160,
+            "field": "finishCond",
+            "param": [
+              77112,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ACTIVITY_TRIGGER_FAILED",
+        "kind": "condition",
+        "rows": 21,
+        "subquests": 21,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 4112102,
+            "mainId": 41121,
+            "field": "failCond",
+            "param": [
+              5006,
+              0
+            ]
+          },
+          {
+            "subId": 4114102,
+            "mainId": 41141,
+            "field": "failCond",
+            "param": [
+              5006,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_LEAVE_VEHICLE",
+        "kind": "condition",
+        "rows": 20,
+        "subquests": 19,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 1504005,
+            "mainId": 15040,
+            "field": "failCond",
+            "param": [
+              45004105,
+              0
+            ]
+          },
+          {
+            "subId": 1504008,
+            "mainId": 15040,
+            "field": "failCond",
+            "param": [
+              45004105,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ABYSS_WAR_LEVEL_STATE_EQUAL",
+        "kind": "condition",
+        "rows": 18,
+        "subquests": 14,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 501129,
+            "mainId": 5011,
+            "field": "finishCond",
+            "param": [
+              1,
+              3
+            ]
+          },
+          {
+            "subId": 501105,
+            "mainId": 5011,
+            "field": "finishCond",
+            "param": [
+              6,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ABYSS_WAR_LIMIT_REIGON_STATE_EQUAL",
+        "kind": "condition",
+        "rows": 18,
+        "subquests": 18,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 501132,
+            "mainId": 5011,
+            "field": "finishCond",
+            "param": [
+              20238002,
+              3
+            ]
+          },
+          {
+            "subId": 501116,
+            "mainId": 5011,
+            "field": "finishCond",
+            "param": [
+              20238005,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ENTER_MY_HOME_WORLD",
+        "kind": "condition",
+        "rows": 17,
+        "subquests": 17,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 1908305,
+            "mainId": 19083,
+            "field": "failCond",
+            "param": [
+              0,
+              0
+            ]
+          },
+          {
+            "subId": 1908306,
+            "mainId": 19083,
+            "field": "failCond",
+            "param": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ENTER_ROGUE_DUNGEON",
+        "kind": "condition",
+        "rows": 11,
+        "subquests": 11,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 4002012,
+            "mainId": 40020,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          },
+          {
+            "subId": 4002027,
+            "mainId": 40020,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_QUEST_CHECK_EQUAL",
+        "kind": "condition",
+        "rows": 10,
+        "subquests": 5,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 1918224,
+            "mainId": 19182,
+            "field": "finishCond",
+            "param": [
+              1009,
+              1
+            ]
+          },
+          {
+            "subId": 1918224,
+            "mainId": 19182,
+            "field": "failCond",
+            "param": [
+              1009,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_TIME_VAR_PASS_REFRESH_POLICY",
+        "kind": "condition",
+        "rows": 10,
+        "subquests": 10,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7766005,
+            "mainId": 77660,
+            "field": "finishCond",
+            "param": [
+              77660,
+              1
+            ]
+          },
+          {
+            "subId": 7766305,
+            "mainId": 77663,
+            "field": "finishCond",
+            "param": [
+              77663,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_LEAVE_SCENE_RANGE_AND_ROOM",
+        "kind": "condition",
+        "rows": 8,
+        "subquests": 8,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 300814,
+            "mainId": 3008,
+            "field": "failCond",
+            "param": [
+              3,
+              230
+            ]
+          },
+          {
+            "subId": 300908,
+            "mainId": 3009,
+            "field": "failCond",
+            "param": [
+              3,
+              230
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_FINISH_ANY_FOOD_COOK",
+        "kind": "condition",
+        "rows": 8,
+        "subquests": 7,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7603301,
+            "mainId": 76033,
+            "field": "finishCond",
+            "param": [
+              133601030,
+              30001
+            ]
+          },
+          {
+            "subId": 7603311,
+            "mainId": 76033,
+            "field": "finishCond",
+            "param": [
+              133601030,
+              30001
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_EVENTS_ITEM_STATUS",
+        "kind": "condition",
+        "rows": 6,
+        "subquests": 6,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 400207,
+            "mainId": 4002,
+            "field": "finishCond",
+            "param": [
+              4001,
+              1
+            ]
+          },
+          {
+            "subId": 400215,
+            "mainId": 4002,
+            "field": "finishCond",
+            "param": [
+              4001,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_LEAVE_FEATURE_TAG_VEHICLE",
+        "kind": "condition",
+        "rows": 6,
+        "subquests": 5,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 502606,
+            "mainId": 5026,
+            "field": "failCond",
+            "param": [
+              30014,
+              0
+            ]
+          },
+          {
+            "subId": 7507008,
+            "mainId": 75070,
+            "field": "failCond",
+            "param": [
+              30014,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ENTER_FEATURE_TAG_VEHICLE",
+        "kind": "condition",
+        "rows": 5,
+        "subquests": 4,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 1501915,
+            "mainId": 15019,
+            "field": "finishCond",
+            "param": [
+              30014,
+              0
+            ]
+          },
+          {
+            "subId": 502605,
+            "mainId": 5026,
+            "field": "finishCond",
+            "param": [
+              30014,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_SHOP_SELL_OUT",
+        "kind": "condition",
+        "rows": 5,
+        "subquests": 5,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7411101,
+            "mainId": 74111,
+            "field": "finishCond",
+            "param": [
+              1103,
+              1
+            ]
+          },
+          {
+            "subId": 7419304,
+            "mainId": 74193,
+            "field": "finishCond",
+            "param": [
+              1108,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_FISHING_SUCC",
+        "kind": "condition",
+        "rows": 4,
+        "subquests": 4,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 7066104,
+            "mainId": 70661,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          },
+          {
+            "subId": 7066110,
+            "mainId": 70661,
+            "field": "finishCond",
+            "param": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_GCG_GUIDE_PROGRESS",
+        "kind": "condition",
+        "rows": 4,
+        "subquests": 2,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7066505,
+            "mainId": 70665,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          },
+          {
+            "subId": 7066519,
+            "mainId": 70665,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_IRODORI_FINISH_FLOWER_COMBINATION",
+        "kind": "condition",
+        "rows": 4,
+        "subquests": 4,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 7268702,
+            "mainId": 72687,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          },
+          {
+            "subId": 7268803,
+            "mainId": 72688,
+            "field": "finishCond",
+            "param": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_EXHIBITION_ACCUMULATE_GT_EQ",
+        "kind": "condition",
+        "rows": 4,
+        "subquests": 4,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7402526,
+            "mainId": 74025,
+            "field": "finishCond",
+            "param": [
+              13502001,
+              0
+            ]
+          },
+          {
+            "subId": 7402529,
+            "mainId": 74025,
+            "field": "finishCond",
+            "param": [
+              13503001,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_UNLOCK_ANY_TRANS_POINT",
+        "kind": "condition",
+        "rows": 4,
+        "subquests": 4,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7466802,
+            "mainId": 74668,
+            "field": "finishCond",
+            "param": [
+              3,
+              0
+            ]
+          },
+          {
+            "subId": 7509701,
+            "mainId": 75097,
+            "field": "finishCond",
+            "param": [
+              3,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_NOT_UNLOCKED_RECIPE",
+        "kind": "condition",
+        "rows": 3,
+        "subquests": 1,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 4001503,
+            "mainId": 40015,
+            "field": "failCond",
+            "param": [
+              0,
+              0
+            ]
+          },
+          {
+            "subId": 4001503,
+            "mainId": 40015,
+            "field": "failCond",
+            "param": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_IRODORI_POETRY_REACH_MIN_PROGRESS",
+        "kind": "condition",
+        "rows": 3,
+        "subquests": 3,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 7269102,
+            "mainId": 72691,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          },
+          {
+            "subId": 7269202,
+            "mainId": 72692,
+            "field": "finishCond",
+            "param": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_IRODORI_POETRY_FINISH_FILL_POETRY",
+        "kind": "condition",
+        "rows": 3,
+        "subquests": 3,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 7269104,
+            "mainId": 72691,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          },
+          {
+            "subId": 7269204,
+            "mainId": 72692,
+            "field": "finishCond",
+            "param": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_AVATAR_CAPTURE_ANIMAL",
+        "kind": "condition",
+        "rows": 3,
+        "subquests": 3,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7618903,
+            "mainId": 76189,
+            "field": "finishCond",
+            "param": [
+              0,
+              0
+            ]
+          },
+          {
+            "subId": 7619003,
+            "mainId": 76190,
+            "field": "finishCond",
+            "param": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_QUEST_VAR_NOT_EQUAL",
+        "kind": "condition",
+        "rows": 3,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 80062,
+            "mainId": 800,
+            "field": "finishCond",
+            "param": [
+              0,
+              1
+            ]
+          },
+          {
+            "subId": 80062,
+            "mainId": 800,
+            "field": "finishCond",
+            "param": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_OBTAIN_VARIOUS_ITEM",
+        "kind": "condition",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 1916115,
+            "mainId": 19161,
+            "field": "finishCond",
+            "param": [
+              0,
+              0
+            ]
+          },
+          {
+            "subId": 7165202,
+            "mainId": 71652,
+            "field": "finishCond",
+            "param": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_UNLOCKED_RECIPE",
+        "kind": "condition",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 4001503,
+            "mainId": 40015,
+            "field": "finishCond",
+            "param": [
+              0,
+              0
+            ]
+          },
+          {
+            "subId": 4001530,
+            "mainId": 40015,
+            "field": "finishCond",
+            "param": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ACTIVITY_END",
+        "kind": "condition",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 4023401,
+            "mainId": 40234,
+            "field": "finishCond",
+            "param": [
+              2045001,
+              0
+            ]
+          },
+          {
+            "subId": 7551201,
+            "mainId": 75512,
+            "field": "finishCond",
+            "param": [
+              5328001,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_CITY_LEVEL_UP",
+        "kind": "condition",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 46902,
+            "mainId": 469,
+            "field": "finishCond",
+            "param": [
+              1,
+              2
+            ]
+          },
+          {
+            "subId": 80013,
+            "mainId": 800,
+            "field": "finishCond",
+            "param": [
+              1,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_CALL_PLAYER_TRAIN_IN_RANGE",
+        "kind": "condition",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 701326,
+            "mainId": 7013,
+            "field": "finishCond",
+            "param": [
+              3,
+              9
+            ]
+          },
+          {
+            "subId": 701608,
+            "mainId": 7016,
+            "field": "finishCond",
+            "param": [
+              3,
+              35
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_AVATAR_RENAME_COMPLETE",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 303202,
+            "mainId": 3032,
+            "field": "finishCond",
+            "param": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_OBTAIN_MATERIAL_WITH_SUBTYPE",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 40702,
+            "mainId": 407,
+            "field": "finishCond",
+            "param": [
+              9,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_CAPTURE_USE_MATERIAL_LIST",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 7267203,
+            "mainId": 72672,
+            "field": "finishCond",
+            "param": [
+              220043,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_SPECIFIC_WIDGET_ATTACHED",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 701129,
+            "mainId": 7011,
+            "field": "finishCond",
+            "param": [
+              220133,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_MISC_RENAME_COMPLETE",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7500007,
+            "mainId": 75000,
+            "field": "finishCond",
+            "param": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ITEM_NUM_LESS",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 80061,
+            "mainId": 800,
+            "field": "finishCond",
+            "param": [
+              100051,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_QUEST_GLOBAL_VAR_LESS",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 80321,
+            "mainId": 803,
+            "field": "finishCond",
+            "param": [
+              1003,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ACHIEVEMENT_STATE_EQUAL",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 80402,
+            "mainId": 804,
+            "field": "finishCond",
+            "param": [
+              81233,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_ACHIEVEMENT_ISACHIEVED",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 80402,
+            "mainId": 804,
+            "field": "failCond",
+            "param": [
+              81230,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_CONTENT_USE_WIDGET",
+        "kind": "condition",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 99809,
+            "mainId": 998,
+            "field": "finishCond",
+            "param": [
+              220009,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "uncovered_rows": 2095,
+    "uncovered_types": 47,
+    "covered_pct": 95.4
+  },
+  "execs": {
+    "total_rows": 25138,
+    "total_types": 100,
+    "uncovered": [
+      {
+        "type": "QUEST_EXEC_SET_MAP_LAYER_UNLOCK_STATE",
+        "kind": "exec",
+        "rows": 195,
+        "subquests": 153,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7710202,
+            "mainId": 77102,
+            "field": "finishExec",
+            "param": [
+              "1901",
+              "1"
+            ]
+          },
+          {
+            "subId": 7710235,
+            "mainId": 77102,
+            "field": "finishExec",
+            "param": [
+              "1902",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_MODIFY_WEATHER_AREA",
+        "kind": "exec",
+        "rows": 147,
+        "subquests": 123,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 701207,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": [
+              "7043",
+              "1"
+            ]
+          },
+          {
+            "subId": 701218,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": [
+              "7043",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_UPDATE_PARENT_QUEST_REWARD_INDEX",
+        "kind": "exec",
+        "rows": 95,
+        "subquests": 93,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 1504423,
+            "mainId": 15044,
+            "field": "finishExec",
+            "param": [
+              "1"
+            ]
+          },
+          {
+            "subId": 1504422,
+            "mainId": 15044,
+            "field": "finishExec",
+            "param": [
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_ADD_ABYSS_WAR_ACCOUNT_DATA",
+        "kind": "exec",
+        "rows": 79,
+        "subquests": 41,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 501101,
+            "mainId": 5011,
+            "field": "finishExec",
+            "param": [
+              "1001",
+              "18,18"
+            ]
+          },
+          {
+            "subId": 501101,
+            "mainId": 5011,
+            "field": "finishExec",
+            "param": [
+              "1002",
+              "1000,1200"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_SET_DAILY_TASK_VAR",
+        "kind": "exec",
+        "rows": 68,
+        "subquests": 54,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 2000405,
+            "mainId": 20004,
+            "field": "finishExec",
+            "param": [
+              "29400",
+              "1",
+              "0"
+            ]
+          },
+          {
+            "subId": 2000405,
+            "mainId": 20004,
+            "field": "finishExec",
+            "param": [
+              "29500",
+              "1",
+              "2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_EXIT_VEHICLE",
+        "kind": "exec",
+        "rows": 67,
+        "subquests": 57,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 701220,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": [
+              "45007002"
+            ]
+          },
+          {
+            "subId": 701220,
+            "mainId": 7012,
+            "field": "failExec",
+            "param": [
+              "45007002"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_CHANGE_SCENE_LEVEL_TAG",
+        "kind": "exec",
+        "rows": 53,
+        "subquests": 49,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 302115,
+            "mainId": 3021,
+            "field": "finishExec",
+            "param": [
+              "69"
+            ]
+          },
+          {
+            "subId": 4006716,
+            "mainId": 40067,
+            "field": "finishExec",
+            "param": [
+              "40"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_UNHIDE_SCENE_POINT",
+        "kind": "exec",
+        "rows": 44,
+        "subquests": 34,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 401108,
+            "mainId": 4011,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "831"
+            ]
+          },
+          {
+            "subId": 4011314,
+            "mainId": 40113,
+            "field": "finishExec",
+            "param": [
+              "10",
+              "4,9,20"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_SET_ABYSS_WAR_LEVEL_STATE",
+        "kind": "exec",
+        "rows": 44,
+        "subquests": 34,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 501103,
+            "mainId": 5011,
+            "field": "finishExec",
+            "param": [
+              "106",
+              "1"
+            ]
+          },
+          {
+            "subId": 501104,
+            "mainId": 5011,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_UNLOCK_EVENTS_ITEM",
+        "kind": "exec",
+        "rows": 43,
+        "subquests": 43,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 400107,
+            "mainId": 4001,
+            "field": "finishExec",
+            "param": [
+              "4001",
+              "10107"
+            ]
+          },
+          {
+            "subId": 400108,
+            "mainId": 4001,
+            "field": "finishExec",
+            "param": [
+              "4001",
+              "10108"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_INC_DAILY_TASK_VAR",
+        "kind": "exec",
+        "rows": 34,
+        "subquests": 34,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 2000313,
+            "mainId": 20003,
+            "field": "finishExec",
+            "param": [
+              "29400",
+              "1"
+            ]
+          },
+          {
+            "subId": 2051704,
+            "mainId": 20517,
+            "field": "finishExec",
+            "param": [
+              "24900",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_SET_ABYSS_WAR_LIMIT_REGION_STATE",
+        "kind": "exec",
+        "rows": 33,
+        "subquests": 26,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 501102,
+            "mainId": 5011,
+            "field": "finishExec",
+            "param": [
+              "20238006",
+              "4"
+            ]
+          },
+          {
+            "subId": 501102,
+            "mainId": 5011,
+            "field": "finishExec",
+            "param": [
+              "20238002",
+              "2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_MODIFY_ARANARA_COLLECTION_STATE",
+        "kind": "exec",
+        "rows": 31,
+        "subquests": 30,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 7309001,
+            "mainId": 73090,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          {
+            "subId": 7309002,
+            "mainId": 73090,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "1",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_CLEAR_VEHICLE",
+        "kind": "exec",
+        "rows": 28,
+        "subquests": 23,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 701220,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "45007002"
+            ]
+          },
+          {
+            "subId": 701220,
+            "mainId": 7012,
+            "field": "failExec",
+            "param": [
+              "3",
+              "45007002"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_ACTIVE_DAMSELETTE_FREE_MOON_PHASE",
+        "kind": "exec",
+        "rows": 28,
+        "subquests": 28,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 602502,
+            "mainId": 6025,
+            "field": "finishExec",
+            "param": []
+          },
+          {
+            "subId": 7600601,
+            "mainId": 76006,
+            "field": "finishExec",
+            "param": []
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_ENTER_VEHICLE",
+        "kind": "exec",
+        "rows": 23,
+        "subquests": 23,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 701257,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": [
+              "45007002",
+              "3",
+              "[3_18185:7662.397,221.350,7738.283,0.000,80.512,0.000]"
+            ]
+          },
+          {
+            "subId": 1504001,
+            "mainId": 15040,
+            "field": "finishExec",
+            "param": [
+              "45004101",
+              "3",
+              "[3_352000004:734.661,268.536,13724.780,0.000,10.000,0.000]"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_DEL_SCENE_TEMP_RES",
+        "kind": "exec",
+        "rows": 21,
+        "subquests": 21,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 701219,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "subId": 1502604,
+            "mainId": 15026,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "2",
+              "1409"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_REFRESH_WORLD_QUEST_FLOW_GROUP_SUITE",
+        "kind": "exec",
+        "rows": 21,
+        "subquests": 21,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7301415,
+            "mainId": 73014,
+            "field": "finishExec",
+            "param": [
+              "133303011,4"
+            ]
+          },
+          {
+            "subId": 7301517,
+            "mainId": 73015,
+            "field": "finishExec",
+            "param": [
+              "133303118,4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_ACTIVE_ACTIVITY_COND_STATE",
+        "kind": "exec",
+        "rows": 18,
+        "subquests": 16,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 4000202,
+            "mainId": 40002,
+            "field": "finishExec",
+            "param": [
+              "1001",
+              "10017"
+            ]
+          },
+          {
+            "subId": 4000202,
+            "mainId": 40002,
+            "field": "finishExec",
+            "param": [
+              "1001",
+              "10018"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_INACTIVE_ACTIVITY_COND_STATE",
+        "kind": "exec",
+        "rows": 18,
+        "subquests": 17,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 4000205,
+            "mainId": 40002,
+            "field": "finishExec",
+            "param": [
+              "1001",
+              "10017"
+            ]
+          },
+          {
+            "subId": 4000205,
+            "mainId": 40002,
+            "field": "finishExec",
+            "param": [
+              "1001",
+              "10018"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
+        "kind": "exec",
+        "rows": 17,
+        "subquests": 17,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 701207,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": [
+              "133705072,133705078"
+            ]
+          },
+          {
+            "subId": 1100906,
+            "mainId": 11009,
+            "field": "finishExec",
+            "param": [
+              "133107228"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_SET_TPS_GLASSES_CHAT_PROGRESS",
+        "kind": "exec",
+        "rows": 15,
+        "subquests": 15,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7710233,
+            "mainId": 77102,
+            "field": "finishExec",
+            "param": [
+              "10",
+              "1"
+            ]
+          },
+          {
+            "subId": 7724307,
+            "mainId": 77243,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "32"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_CLEAR_FEATURE_TAG_VEHICLE",
+        "kind": "exec",
+        "rows": 15,
+        "subquests": 13,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 1504005,
+            "mainId": 15040,
+            "field": "failExec",
+            "param": [
+              "30019",
+              "3"
+            ]
+          },
+          {
+            "subId": 1504011,
+            "mainId": 15040,
+            "field": "failExec",
+            "param": [
+              "30019",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_MODIFY_CLIMATE_AREA",
+        "kind": "exec",
+        "rows": 14,
+        "subquests": 13,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 1204209,
+            "mainId": 12042,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "4",
+              "0"
+            ]
+          },
+          {
+            "subId": 1204209,
+            "mainId": 12042,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "5",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_LOCK_MIRROR_AVATAR_TEAM",
+        "kind": "exec",
+        "rows": 14,
+        "subquests": 14,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 1503607,
+            "mainId": 15036,
+            "field": "finishExec",
+            "param": [
+              "10035,10031;10035,10032",
+              "1",
+              "3"
+            ]
+          },
+          {
+            "subId": 1503802,
+            "mainId": 15038,
+            "field": "finishExec",
+            "param": [
+              "10035,10031;10035,10032",
+              "1",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_RANDOM_CLOSED_QUEST_VAR",
+        "kind": "exec",
+        "rows": 11,
+        "subquests": 10,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 2400301,
+            "mainId": 24003,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "1",
+              "3"
+            ]
+          },
+          {
+            "subId": 2400801,
+            "mainId": 24008,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "1",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_MODIFY_DUNGEON_EXIT_POINT",
+        "kind": "exec",
+        "rows": 9,
+        "subquests": 9,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 303401,
+            "mainId": 3034,
+            "field": "finishExec",
+            "param": [
+              "1314",
+              "3",
+              "2061"
+            ]
+          },
+          {
+            "subId": 303413,
+            "mainId": 3034,
+            "field": "finishExec",
+            "param": [
+              "1314",
+              "3",
+              "1980"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_HIDE_SCENE_POINT",
+        "kind": "exec",
+        "rows": 8,
+        "subquests": 8,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7005101,
+            "mainId": 70051,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "1218"
+            ]
+          },
+          {
+            "subId": 7006549,
+            "mainId": 70065,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "1988"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_CHANGE_PLAYER_TRAIN_FIGURE_SGV",
+        "kind": "exec",
+        "rows": 7,
+        "subquests": 7,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7767601,
+            "mainId": 77676,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "14",
+              "1"
+            ]
+          },
+          {
+            "subId": 700917,
+            "mainId": 7009,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "2",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_ACTIVATE_SCENERY",
+        "kind": "exec",
+        "rows": 6,
+        "subquests": 6,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 4022301,
+            "mainId": 40223,
+            "field": "finishExec",
+            "param": [
+              "10100102"
+            ]
+          },
+          {
+            "subId": 4022413,
+            "mainId": 40224,
+            "field": "finishExec",
+            "param": [
+              "10100103"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_CLEAR_PERSISTENT_DUNGEON_SCENE",
+        "kind": "exec",
+        "rows": 4,
+        "subquests": 4,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 701218,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": [
+              "51327"
+            ]
+          },
+          {
+            "subId": 501311,
+            "mainId": 5013,
+            "field": "finishExec",
+            "param": [
+              "20238"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_LOCK_AVATAR_TEAM",
+        "kind": "exec",
+        "rows": 4,
+        "subquests": 4,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 1110204,
+            "mainId": 11102,
+            "field": "finishExec",
+            "param": [
+              "10000026"
+            ]
+          },
+          {
+            "subId": 1200802,
+            "mainId": 12008,
+            "field": "finishExec",
+            "param": [
+              "10000005"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_CHANGE_SKILL_DEPOT",
+        "kind": "exec",
+        "rows": 4,
+        "subquests": 2,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 200102,
+            "mainId": 2001,
+            "field": "finishExec",
+            "param": [
+              "3"
+            ]
+          },
+          {
+            "subId": 200102,
+            "mainId": 2001,
+            "field": "failExec",
+            "param": [
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_GRANT_TRIAL_AVATAR_BATCH_AND_LOCK_TEAM_V2",
+        "kind": "exec",
+        "rows": 4,
+        "subquests": 4,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 4012419,
+            "mainId": 40124,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "10013,72,73,74",
+              "0"
+            ]
+          },
+          {
+            "subId": 4012420,
+            "mainId": 40124,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "10014,72,73,74",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_GRANT_TRIAL_AVATAR_AND_LOCK_TEAM",
+        "kind": "exec",
+        "rows": 3,
+        "subquests": 3,
+        "missing": "+handler",
+        "examples": [
+          {
+            "subId": 1202605,
+            "mainId": 12026,
+            "field": "finishExec",
+            "param": [
+              "32"
+            ]
+          },
+          {
+            "subId": 1901504,
+            "mainId": 19015,
+            "field": "finishExec",
+            "param": [
+              "502"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_GRANT_TRIAL_AVATAR_AND_LOCK_TEAM_V2",
+        "kind": "exec",
+        "rows": 3,
+        "subquests": 3,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 1302710,
+            "mainId": 13027,
+            "field": "finishExec",
+            "param": [
+              "2",
+              "63"
+            ]
+          },
+          {
+            "subId": 1303202,
+            "mainId": 13032,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "64",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_OPTIONAL_REVIVAL_TEAM",
+        "kind": "exec",
+        "rows": 3,
+        "subquests": 3,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 302825,
+            "mainId": 3028,
+            "field": "finishExec",
+            "param": [
+              "1"
+            ]
+          },
+          {
+            "subId": 402414,
+            "mainId": 4024,
+            "field": "finishExec",
+            "param": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_LOCK_AVATAR_TEAM_V2",
+        "kind": "exec",
+        "rows": 3,
+        "subquests": 3,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 4012407,
+            "mainId": 40124,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "10000025",
+              "10000080"
+            ]
+          },
+          {
+            "subId": 4012410,
+            "mainId": 40124,
+            "field": "finishExec",
+            "param": [
+              "1",
+              "10000025",
+              "10000080",
+              "10000034"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_CREATE_VEHICLE",
+        "kind": "exec",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 201002,
+            "mainId": 2010,
+            "field": "finishExec",
+            "param": [
+              "45001001",
+              "3",
+              "Q201002_Skiff"
+            ]
+          },
+          {
+            "subId": 7302521,
+            "mainId": 73025,
+            "field": "finishExec",
+            "param": [
+              "45001001",
+              "3",
+              "Q7302521_guide"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_ADD_ALCHEMY_SIM_CROP",
+        "kind": "exec",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 4014402,
+            "mainId": 40144,
+            "field": "finishExec",
+            "param": [
+              "1,4,16",
+              "10,10,10"
+            ]
+          },
+          {
+            "subId": 4016001,
+            "mainId": 40160,
+            "field": "finishExec",
+            "param": [
+              "1,4,16",
+              "10,10,10"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_ACTIVATE_PERSISTENT_DUNGEON_SCENE",
+        "kind": "exec",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 501005,
+            "mainId": 5010,
+            "field": "finishExec",
+            "param": [
+              "20238"
+            ]
+          },
+          {
+            "subId": 600311,
+            "mainId": 6003,
+            "field": "finishExec",
+            "param": [
+              "20321"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_CHANGE_AVATAR_COSTUME",
+        "kind": "exec",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 601714,
+            "mainId": 6017,
+            "field": "finishExec",
+            "param": [
+              "10000005",
+              "200501"
+            ]
+          },
+          {
+            "subId": 601715,
+            "mainId": 6017,
+            "field": "finishExec",
+            "param": [
+              "10000007",
+              "200701"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_SHOW_MAP_LAYER_GROUP",
+        "kind": "exec",
+        "rows": 2,
+        "subquests": 2,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7323205,
+            "mainId": 73232,
+            "field": "finishExec",
+            "param": [
+              "33104"
+            ]
+          },
+          {
+            "subId": 7325115,
+            "mainId": 73251,
+            "field": "finishExec",
+            "param": [
+              "33001"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_UNLOCK_TPS_AVATAR",
+        "kind": "exec",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 701215,
+            "mainId": 7012,
+            "field": "finishExec",
+            "param": []
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_ENTER_AQUARIUM_DIVING_DUNGEON",
+        "kind": "exec",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7470001,
+            "mainId": 74700,
+            "field": "finishExec",
+            "param": [
+              "99"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_SET_LIMIT_REGION_STATE",
+        "kind": "exec",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 1504301,
+            "mainId": 15043,
+            "field": "finishExec",
+            "param": [
+              "31001001",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_UNIQUE_RANDOM_QUEST_VAR",
+        "kind": "exec",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 2503601,
+            "mainId": 25036,
+            "field": "finishExec",
+            "param": [
+              "1,2,3",
+              "1",
+              "6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_SET_SCENE_VAR",
+        "kind": "exec",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7716008,
+            "mainId": 77160,
+            "field": "finishExec",
+            "param": [
+              "3",
+              "Scenevar_GZJR",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_FINISH_ABYSS_WAR_ACCOUNT_PERFORMANCE",
+        "kind": "exec",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 501308,
+            "mainId": 5013,
+            "field": "finishExec",
+            "param": []
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_SET_IS_DIVEABLE",
+        "kind": "exec",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7466801,
+            "mainId": 74668,
+            "field": "finishExec",
+            "param": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "QUEST_EXEC_UNLOCK_SCENE_MP",
+        "kind": "exec",
+        "rows": 1,
+        "subquests": 1,
+        "missing": "enum+handler",
+        "examples": [
+          {
+            "subId": 7609623,
+            "mainId": 76096,
+            "field": "finishExec",
+            "param": [
+              "103"
+            ]
+          }
+        ]
+      }
+    ],
+    "uncovered_rows": 1252,
+    "uncovered_types": 51,
+    "covered_pct": 95.0
+  }
+}
